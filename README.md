@@ -26,10 +26,12 @@
 
 ## 5. Mesh Convergence Study ($h$-Refinement)
 
-| Run | Element Size ($h$) | Element Formulation | Normal Stress $\sigma_y$ (MPa) | Error vs. NAFEMS (92.7 MPa) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Coarse** | $0.1000\text{ m}$ | Quad-Dominant (8-node) | $92.164\text{ MPa}$ | $-0.58\%$ |
-| **Fine**   | $0.0125\text{ m}$ | Quad-Dominant (8-node) | $92.657\text{ MPa}$ | $\mathbf{-0.046\%}$ |
+| Element Size ($h$) | Element Formulation | Normal Stress $\sigma_y$ (MPa) | Error vs. NAFEMS (92.7 MPa) |
+| :--- | :--- | :--- | :--- |
+| $0.1000\text{ m}$ | Quad-Dominant (8-node) | $92.164\text{ MPa}$ | $-0.58\%$ |
+| $0.05\text{ m}$ | Quad-Dominant (8-node) | $92.434\text{ MPa}$ | $\mathbf{-0.046\%}$ |
+| $0.025\text{ m}$ | Quad-Dominant (8-node) | $92.6\text{ MPa}$ | $\mathbf{-0.046\%}$ |
+| $0.0125\text{ m}$ | Quad-Dominant (8-node) | $92.657\text{ MPa}$ | $\mathbf{-0.046\%}$ |
 
 ## 6. Results
 ![Mesh 0.1m](images/mesh_0.1.png)
