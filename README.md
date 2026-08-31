@@ -31,10 +31,21 @@
 | **Coarse** | $0.1000\text{ m}$ | Quad-Dominant (8-node) | $92.164\text{ MPa}$ | $-0.58\%$ |
 | **Fine**   | $0.0125\text{ m}$ | Quad-Dominant (8-node) | $92.657\text{ MPa}$ | $\mathbf{-0.046\%}$ |
 
+## 6. Results
+![Mesh 0.1m](images/mesh_0.1.png)
+![Mesh 0.0125](images/mesh_0.05.png)
+![Mesh 0.0125](images/mesh_0.025.png)
+![Mesh 0.0125](images/mesh_0.0125.png)
+![Normal Stress 0.1](images/image_0.1.png)
+![Normal Stress 0.05](images/image_0.05.png)
+![Normal Stress 0.025](images/image_0.025.png)
+![Normal Stress 0.0125](images/image_0.0125.png)
+
+
 ### Convergence Evidence
 - The solution demonstrates asymptotic numerical convergence with $< 0.1\%$ relative discretization error, confirming mathematical independence from the mesh.
 
-## 6. Key Takeaways & Verification Verdict
+## 7. Key Takeaways & Verification Verdict
 - Successfully validated against standard NAFEMS benchmark results.
 - Demonstrated strict quarter-symmetry boundary application in 2D Space.
 - Verified that $h$-refinement resolves initial displacement-based FE stiffness.
