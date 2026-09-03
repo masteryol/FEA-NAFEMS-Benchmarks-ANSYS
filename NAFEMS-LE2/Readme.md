@@ -66,7 +66,7 @@ $$\text{Relative Error} = \frac{\sigma_{\text{FEA}} - \sigma_{\text{Ref}}}{\sigm
 
 | Coarse ($25\text{ mm}$) | Medium ($15\text{ mm}$) | Fine ($8\text{ mm}$) |
 | :---: | :---: | :---: |
-| ![Coarse Stress](images/coarse_stress_25.png) | ![Medium Stress](images/medium_stress_15.png) | ![Fine Stress](images/fine_stress_8.jpg) |
+| ![Coarse Stress](images/coarse_stress_25.png) | ![Medium Stress](images/medium_stress_15.png) | ![Fine Stress](images/fine_stress_8.png) |
 
 ---
 
